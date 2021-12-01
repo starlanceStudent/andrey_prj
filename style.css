@@ -1,0 +1,83 @@
+body {
+	background: #eee;
+	margin: 0;
+	padding: 0;
+}
+
+#block {
+	width: 1200px;
+	background: #000;
+	margin: 10px auto;
+}
+
+.white_text {
+	color: white;
+}
+
+.text_center {
+	text-align: center;
+}
+
+nav {
+	overflow: hidden;
+}
+
+nav a {
+	display: block;
+	width: 25%;
+	background: gold;
+	float: left;
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+nav a:hover {
+	background: #000;
+	color: gold;
+
+}
+
+h1 {
+	font-size: 70px;
+	padding: 70px 0 0 0;
+	margin: 0;
+}
+
+header p {
+	padding: 0 0 70px 0;
+}
+
+header {
+	border-bottom: 3px dotted #fff;
+}
+
+main {
+	overflow: hidden;
+}
+
+main .video_block {
+	width: 400px;
+	height: 300px;
+	background: red;
+	float: left;
+	background: #000;
+}
+
+main .video_block:hover {
+	background: url(https://news.xbox.com/ru-ru/wp-content/uploads/sites/9/2021/08/HumbleGames_HERO.jpg);
+	background-size: cover;
+}
+
+.image_block {
+	background: gold !important;
+}
+
+footer {
+	padding: 20px 0;
+	border-top: 3px dotted #fff;
+}
